@@ -1,0 +1,35 @@
+#clockcontainer{
+position:relative;
+height:40vw;
+width:40vw;
+margin:auto;
+border:2px solid red;
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYz8cghl-Y4Z2KCx5uJHKAOqIqb_kFOlpo9-ogApTjIXfFC3ORWYcfeHcDHprWp_-yIbo&usqp=CAU) no-repeat;
+background-size: 100%;
+}
+
+#hour,#minutes,#second{
+position:absolute;
+background:black;
+border-radius: 10px;
+transform-origin: bottom;
+
+}
+#hour{
+width:2.5%;
+height:18%;
+top:32.8%;
+left:49.5%;
+}
+#minutes{
+    width:1.5%;
+    height:26%;
+    top:24%;
+    left:49.5%;
+}
+#second{
+    width:1%;
+    height:28%;
+    top:22%;
+    left:49.5%;   
+}
